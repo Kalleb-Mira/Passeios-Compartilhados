@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin: 47px 0 100px 42px;
+
+}
+
+header a {
+    margin-right: 36px;
+    cursor: pointer;
+}
+
+header a:hover {
+    font-weight: bolder;
+}
+
+header button {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+
+    width: 124px;
+    height: 51px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+header button:hover {
+    background: #3cab00;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+figure {
+    display: inline-block;
+}
+
+img {
+    width: 480px;
+    margin-left: 121px;
+    margin-right: 80px;
+
+    animation: logo 1.5s;
+   
+}
+
+@keyframes logo {
+    50% {
+        transform: translateY(-10%);
+    }
+}
+
+main {
+    display: inline-block;
+}
+
+main h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.5px;
+
+    color: #161A49;
+
+    width: 582px;
+    height: 164px;
+}
+
+main p {
+    width: 493px;
+   
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+
+    color: #4B505A;
+
+    margin: 47px 0 55px;
+}
+
+main a {
+    
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+main a:hover {
+    color: #3cab00;
+}
+
+
+@media screen and (max-width: 450px) {
+
+
+    header {
+        margin: 17px 15px 76px 0;
+        
+        display: flex;
+        justify-content: flex-end;
+    }
+   
+    header a {
+        display: none;
+
+    }
+
+    header button {
+        display: block;
+        width: 114px;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    figure {
+        width: 60;
+    }
+    
+    img {
+        width: 80vw;
+        margin: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    main {
+        display: block;
+        margin: 0 40px;
+    }
+    
+     main h1 {
+        font-size: 30px;
+        line-height: 30px;
+        width: auto;
+        height: auto;     
+        text-align: center;
+       
+    }
+
+    main p {
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        margin: 29px 0;
+        width: auto;
+    }
+
+    main a {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 59px;
+    }
+
+}
